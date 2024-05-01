@@ -1,0 +1,124 @@
+@import url('https://rsms.me/inter/inter.css');
+
+:root {
+    --primary: skyblue;
+    --pure: antiquewhite;
+    --dark: rgb(3, 30, 40);
+}
+
+body {
+    /* background-color: var(--primary); */
+    background-image: url("images/sunsetnograin.jpg");
+    background-size: 100%;
+    min-height: 100%;
+    width: 100%;
+    font-family: 'Spectral', 'sans-serif'; /* Spectral/Inter */
+}
+
+.header {
+    color: var(--dark);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.data {
+    /* margin-left: 20vw; */
+    flex-direction: column;
+    position: relative;
+}
+
+.box {
+    border: 3px solid var(--dark);
+    align-items: center;
+    /* margin-right: 20vw; */
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--pure);
+    transition: all 0.3s ease;
+}
+
+.box:hover{
+    background-color: white;
+}
+
+.btn {
+    padding: 0.8rem 3rem;
+    font-weight: 600px;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    display: block;
+    transition: all 0.3s ease;
+    background-color: var(--primary);
+}
+
+.btn:hover{
+    border-color: var(--primary);
+    background: transparent;
+    color: var(--dark);
+
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    max-width: 1152px;
+    padding: 0.8rem 15px;
+    color: var(--primary);
+    background: transparent;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+input[type=text]{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.response {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+#minmax {
+    margin-top: 5px;
+}
+
+#cityPhotoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+}
+
+#cityPhoto {
+    max-width: 600px;
+    max-height: 500px;
+    margin-left: 60px;
+    margin-top: 60px;
+    border-radius: 20px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App!</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="icon" href="images\sun.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Today's Weather</h1>
+    </div>
+    <div class="container">
+        <div class="left data">
+            <div class="box">
+                <h2 class="response" id="location"></h2>
+                <input class="input-box" type="text" id="destination" placeholder="Enter city...">
+                <button class="btn" id="searchButton">Search Location</button>
+            </div>
+            <div class="box">
+                <h2 class="response" id="temperature"></h2>
+                <h2 class="response" id="minmax"></h2>
+                <button class="btn" id="toggleButton">Toggle Temperature</button>
+            </div>
+            <h2 class="box response" id="wind"></h2>
+            <!-- <h2 class="box response" id="rain"></h2> -->
+            <h2 class="box response" id="sky"></h2>
+            <h2 class="box response" id="timezone"></h2>
+        </div>
+        <div class="right" id="cityPhotoContainer">
+            <img id="cityPhoto" src="">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script type="module" src="weather.js"></script>
+</body>
+</html>

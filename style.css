@@ -54,6 +54,7 @@ body {
     display: block;
     transition: all 0.3s ease;
     background-color: var(--primary);
+    border-radius: 20px;
 }
 
 .btn:hover{

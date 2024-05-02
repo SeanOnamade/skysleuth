@@ -38,6 +38,8 @@ body {
     flex-direction: column;
     background-color: var(--pure);
     transition: all 0.3s ease;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .box:hover{
@@ -46,7 +48,7 @@ body {
 
 .btn {
     padding: 0.8rem 3rem;
-    font-weight: 600px;
+    font-weight: bold;
     font-size: 1rem;
     border: 2px solid transparent;
     display: block;
@@ -58,7 +60,6 @@ body {
     border-color: var(--primary);
     background: transparent;
     color: var(--dark);
-
 }
 
 .container {
@@ -68,6 +69,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-bottom: 0rem;
+    padding-left: 2rem;
 }
 
 .left {
@@ -113,12 +116,26 @@ input[type=text]{
     align-items: center;
     position: relative;
     flex: 1;
+    height: 75vh;
+    background-color: var(--pure);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
+    border: 3px solid var(--dark);
+}
+
+#cityPhotoContainer:hover{
+    background-color: white;
 }
 
 #cityPhoto {
-    max-width: 600px;
-    max-height: 500px;
-    margin-left: 60px;
-    margin-top: 60px;
+    max-width: 100%;
+    max-height: 75vh;
+    height: 60vh;
+    height: auto;
     border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
+
 }

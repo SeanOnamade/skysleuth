@@ -40,8 +40,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -71,7 +69,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/weather/images/pagescreenshot.png)
+![Product Name Screen Shot](https://github.com/SeanOnamade/weather/blob/main/images/pagescreenshot.png)
+<br />
+<p align="center">
+  <img src="https://github.com/SeanOnamade/weather/blob/main/weatherdemogif.gif" width="800" />
+</p>
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -111,7 +113,10 @@ To get a local copy up and running follow these simple example steps.
 ## Usage
 
 Use this weather app to find deatils on any city in the world, such as current temperature, the minimum and maximum for the day, sky conditions, and even the current time!
-<img src="https://github.com/SeanOnamade/weather/weatherdemogif.gif" width="800">
+<br />
+<p align="center">
+  <img src="https://github.com/SeanOnamade/weather/blob/main/weatherdemogif.gif" width="800" />
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +169,6 @@ Project Link: [https://github.com/SeanOnamade/weather](https://github.com/SeanOn
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/seanonamade
-[product-screenshot]: images/screenshot.png
 
 [OpenWeather-url]: https://openweathermap.org/ 
 

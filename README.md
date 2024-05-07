@@ -112,7 +112,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this weather app to find deatils on any city in the world, such as current temperature, the minimum and maximum for the day, sky conditions, and even the current time!
+Use this weather app to find details on any city in the world, such as current temperature, the minimum and maximum for the day, sky conditions, and even the current time!
 <br />
 <p align="center">
   <img src="https://github.com/SeanOnamade/weather/blob/main/weatherdemogif.gif" width="800" />

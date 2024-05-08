@@ -1,9 +1,11 @@
 "use strict"
 import config from './config.js';
 
-const api_key = config.apiKey;
+// const api_key = config.apiKey;
 const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
-const map_api = config.mapApi;
+// const map_api = config.mapApi;
+const api_key = process.env.API_KEY;
+const map_api = process.env.MAP_API_KEY;
 let city = "Paris";
 let isFahrenheit = true;
 

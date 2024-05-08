@@ -4,11 +4,11 @@
 // const api_key = config.apiKey;
 const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
 // const map_api = config.mapApi;
-const api_key = process.env.API_KEY;
-const map_api = process.env.MAP_API_KEY;
+const api_key = "%API_KEY%";
+const map_api = "%MAP_API_KEY%";
 let city = "Paris";
 let isFahrenheit = true;
-
+np
 function updateTemp(result) {
     let temp, min, max;
     let unit;

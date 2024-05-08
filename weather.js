@@ -1,5 +1,5 @@
 "use strict"
-import config from './config.js';
+// import config from './config.js';
 
 // const api_key = config.apiKey;
 const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';

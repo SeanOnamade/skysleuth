@@ -61,6 +61,7 @@ body {
     border-color: var(--primary);
     background: transparent;
     color: var(--dark);
+    cursor: pointer;
 }
 
 .container {

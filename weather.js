@@ -60,7 +60,7 @@ function updateWeather(city) {
             //     $("#rain").text("No rain data available");
             // }
 
-            let timezoneOffset = result.timezone - 7200; // 7200 is local offset
+            let timezoneOffset = result.timezone + 21600; // 7200 is local offset
             let localTime = new Date(new Date().getTime() + (timezoneOffset * 1000));
             let displayTime = `Time: ${localTime.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit', hour12: true})}`;
             $("#timezone").text(displayTime);

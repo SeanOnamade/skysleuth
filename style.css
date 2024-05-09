@@ -55,7 +55,6 @@ body {
     transition: all 0.3s ease;
     background-color: var(--primary);
     border-radius: 30px;
-    box-shadow: 1px 5px 10px rgb(132, 187, 198);
 }
 
 .btn:hover{
@@ -102,12 +101,6 @@ input[type=text]{
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    box-shadow: 1px 5px 10px rgb(218, 218, 218);
-}
-
-input:focus {
-    outline: none;
-    box-shadow: 1px 3px 5px rgb(218, 218, 218);
 }
 
 .response {

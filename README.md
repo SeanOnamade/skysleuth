@@ -25,7 +25,7 @@
     <img src="images/sun.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Weather App!</h3>
+<h3 align="center">SkySleuth!</h3>
 
   <p align="center">
     Simple Weather App made with JQuery, Javascript, and the OpenWeather API!

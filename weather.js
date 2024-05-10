@@ -2,7 +2,7 @@
 // import config from './config.js';
 
 // const api_key = config.apiKey;
-const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
+const corsProxyUrl = 'https://cors.bridged.cc/';
 // const map_api = config.mapApi;
 const api_key = "%API_KEY%";
 const map_api = "%MAP_API_KEY%";

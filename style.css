@@ -160,6 +160,10 @@ a {
 }
 
 @media (max-width: 767px) {
+    body {
+        background-clip: contain;
+    }
+
     .container {
         flex-direction: column;
         align-items: center;
@@ -170,9 +174,3 @@ a {
     }
 }
 
-@media (max-width: 375px) {
-    body {
-        background-size: contain; /* or any other appropriate size */
-        height: auto; /* Resetting the height to allow content to expand */
-    }
-}

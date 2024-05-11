@@ -2,7 +2,7 @@
 // import config from './config.js';
 
 // const api_key = config.apiKey;
-const corsProxyUrl = 'https://api.allorigins.win/raw?url=';
+const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
 // const map_api = config.mapApi;
 const api_key = "%API_KEY%";
 const map_api = "%MAP_API_KEY%";

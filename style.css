@@ -10,9 +10,8 @@ body {
     /* background-color: var(--primary); */
     background-image: url("images/sunsetnograin.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 100%;
-    width: 100%;
+    background-size: 100vw;
+    height: 100%;
     font-family: 'Spectral', 'sans-serif'; /* Spectral/Inter */
 }
 
@@ -137,6 +136,11 @@ input:focus {
     border: 3px solid var(--dark);
 }
 
+#proxyButton {
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
 #cityPhotoContainer:hover{
     background-color: white;
 }
@@ -148,5 +152,4 @@ input:focus {
     height: auto;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
-
 }

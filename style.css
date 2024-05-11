@@ -13,7 +13,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     font-family: 'Spectral', 'sans-serif'; /* Spectral/Inter */
     min-height: 100vh;
 }

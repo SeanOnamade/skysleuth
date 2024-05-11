@@ -15,6 +15,7 @@ body {
     background-position: center;
     height: 100vh;
     font-family: 'Spectral', 'sans-serif'; /* Spectral/Inter */
+    min-height: 100vh;
 }
 
 .header {
@@ -75,7 +76,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding-bottom: 0rem;
-    /* padding-left: 2rem; */
+    min-height: 100vh; 
 }
 
 .left {
@@ -160,9 +161,9 @@ a {
 }
 
 @media (max-width: 767px) {
-    body {
+    /* body {
         background-clip: contain;
-    }
+    } */
 
     .container {
         flex-direction: column;
